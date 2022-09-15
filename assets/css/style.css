@@ -362,7 +362,42 @@ main .container-little .box-partner .partner-text p{
     font-size: 1rem;
 }
 
+/* CONTENT */
+main .container-little .content .content-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+main .container-little .content h2{
+    font-size: 2.5rem;
+    margin-top: 170px;
+    margin-bottom: 70px;
+}
+
+main .container-little .content .content-cards .img-centered{
+    text-align: center;
+}
+
+main .container-little .content .content-cards .img-centered img{
+    width: 300px;
+    align-items: center;
+}
+
+main .container-little .content .content-cards .feature{
+    width: calc(100% /3);
+    height: 470px;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+main .container-little .content .content-cards h3{
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
+main .container-little .content .content-cards p{
+    font-size: 1.1rem;
+}
 /* END MAIN */
 
 /* FOOTER */
