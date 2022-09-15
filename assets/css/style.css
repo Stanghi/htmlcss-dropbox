@@ -331,6 +331,20 @@ main .container-little .large-card .bottom button{
     right: 30px;
 }
 
+/* BOX-PARTNER */
+main .container-little .box-partner{
+    width: 1000px;
+    height: 515px;
+    margin-top: 150px;
+    background-color: yellow;
+}
+
+main .container-little .box-partner .img{
+    width: 600px;
+    height: 515px;
+    border: 1px solid black;
+}
+
 /* END MAIN */
 
 /* FOOTER */
