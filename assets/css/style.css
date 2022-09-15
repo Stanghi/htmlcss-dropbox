@@ -1,0 +1,24 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+
+/* UTILITY */
+.debug{
+    background-color: rgba(red, 0, 0, 0.25);
+    border: 1px solid black;
+}
+
+/* COMPONENTS */
+
+/* HEADER */
+/* END HEADER */
+
+/* MAIN */
+/* END MAIN */
+
+/* FOOTER */
+/* END FOOTER */
