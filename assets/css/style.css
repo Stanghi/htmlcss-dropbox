@@ -39,7 +39,7 @@ img{
 
 .btn-header{
     background-color: #0061FF;
-    padding: 10px 15px;
+    padding: 8px 16px;
     font-size: 1rem;
     color: #DDEAFF;
     margin-left: 20px;
@@ -50,6 +50,13 @@ img{
     padding: 10px 15px;
     font-size: 1.1rem;
     color: #DDEAFF;
+}
+
+.btn-card{
+    background-color: #0061FF;
+    padding: 15px 40px;
+    font-size: .9rem;
+    color: #FFFFFF;
 }
 
 /* HEADER */
@@ -162,19 +169,19 @@ main .jumbotron .container .jumbo-bottom img{
 }
 /* END JUMBOTRON */
 
-main .container-little .title-box{
-    width: 715px;
-    height: 30px;
-    background-color: yellow;
+main .container-little h2{ /* VA BENE */
+    font-size: 2.5rem;
     margin-top: 165px;
     margin-bottom: 75px;
 }
 
-main .container-little .check-box{
-    width: 370px;
-    height: 20px;
-    background-color: yellow;
+main .container-little .check{ /* VA BENE */
     margin-bottom: 50px;
+    font-size: 0.9rem;
+}
+
+main .container-little .check .check-left{ /* VA BENE */
+    padding-right: 50px;
 }
 
 main .container-little .cards{
@@ -184,9 +191,108 @@ main .container-little .cards{
 
 main .container-little .long-card{
     width: 300px;
-    height: 950px;
-    background-color: yellow;
+    height: 950px;    
+    border: 1px solid #D0D0D3;
 }
+
+main .container-little .long-card .top{ /* VA BENE */
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #D0D0D3;
+    font-size: .9rem;
+}
+
+main .container-little .long-card .bottom{
+    padding: 40px 25px;
+}
+
+main .container-little .long-card .bottom h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
+main .container-little .long-card .bottom .price{
+    font-weight: bold;
+    font-size: .9rem;
+    padding-bottom: 30px;
+}
+
+main .container-little .long-card .bottom .month{
+    font-size: .9rem;
+    color: #747097;
+    padding-top: 15px;
+}
+
+main .container-little .long-card .bottom .offer{
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 25px;
+}
+
+main .container-little .long-card .bottom .offer ul{
+    list-style: none;
+}
+
+main .container-little .long-card .bottom .offer ul li{
+    padding-bottom: 25px;
+    display: flex;
+}
+
+main .container-little .long-card .bottom .offer ul li i{
+    font-size: .9rem;
+    padding-right: 5px;
+}
+
+main .container-little .long-card .bottom .offer ul li p{
+    font-size: .9rem;
+}
+
+main .container-little .long-card .bottom .buy{
+    padding-top: 35px;
+    font-size: .9rem;
+}
+
+main .container-little .long-card .bottom .buy a{
+    color: #0000EE;
+}
+
+
+
+main .container-little .long-card .bottom .highlights-offer{
+    padding-top: 55px;
+    padding-bottom: 25px;
+}
+
+main .container-little .long-card .bottom .highlights-offer h4{
+    padding-bottom: 35px;
+    font-size: .9rem;
+}
+
+main .container-little .long-card .bottom .highlights-offer ul{
+    list-style: none;
+}
+
+main .container-little .long-card .bottom .highlights-offer ul li{
+ padding-bottom: 25px;   
+ display: flex;
+}
+
+main .container-little .long-card .bottom .highlights-offer ul li i{
+    color: #0061FF;
+    font-size: 1.1rem;
+    padding-right: 5px;
+}
+
+main .container-little .long-card .bottom .highlights-offer p{
+    font-size: .9rem;
+}
+
+
+
+
+
+
 
 main .container-little .large-card{
     height: 255px;
