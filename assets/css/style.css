@@ -7,7 +7,8 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+
 }
 
 img{
@@ -54,9 +55,10 @@ img{
 
 .btn-card{
     background-color: #0061FF;
-    padding: 15px 40px;
+    padding: 15px;
     font-size: .9rem;
     color: #FFFFFF;
+    width: 100%;
 }
 
 /* HEADER */
@@ -203,19 +205,19 @@ main .container-little .long-card .top{ /* VA BENE */
 }
 
 main .container-little .long-card .bottom{
-    padding: 40px 25px;
+    padding: 35px 25px;
 }
 
 main .container-little .long-card .bottom h3{
     font-weight: bold;
     font-size: 1.5rem;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 main .container-little .long-card .bottom .price{
     font-weight: bold;
     font-size: .9rem;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 main .container-little .long-card .bottom .month{
@@ -227,11 +229,12 @@ main .container-little .long-card .bottom .month{
 main .container-little .long-card .bottom .offer{
     display: flex;
     padding-top: 55px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 main .container-little .long-card .bottom .offer ul{
     list-style: none;
+    
 }
 
 main .container-little .long-card .bottom .offer ul li{
@@ -241,15 +244,15 @@ main .container-little .long-card .bottom .offer ul li{
 
 main .container-little .long-card .bottom .offer ul li i{
     font-size: .9rem;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 main .container-little .long-card .bottom .offer ul li p{
-    font-size: .9rem;
+    font-size: 0.94rem;
 }
 
 main .container-little .long-card .bottom .buy{
-    padding-top: 35px;
+    margin-top: 35px;
     font-size: .9rem;
 }
 
@@ -265,8 +268,8 @@ main .container-little .long-card .bottom .highlights-offer{
 }
 
 main .container-little .long-card .bottom .highlights-offer h4{
-    padding-bottom: 35px;
     font-size: .9rem;
+    margin-bottom: 35px;
 }
 
 main .container-little .long-card .bottom .highlights-offer ul{
@@ -280,7 +283,7 @@ main .container-little .long-card .bottom .highlights-offer ul li{
 
 main .container-little .long-card .bottom .highlights-offer ul li i{
     color: #0061FF;
-    font-size: 1.1rem;
+    font-size: .9rem;
     padding-right: 5px;
 }
 
