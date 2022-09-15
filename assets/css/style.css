@@ -58,7 +58,7 @@ img{
     padding: 15px;
     font-size: .9rem;
     color: #FFFFFF;
-    width: 100%;
+    width: 240px;
 }
 
 /* HEADER */
@@ -191,6 +191,7 @@ main .container-little .cards{
     justify-content: space-between;
 }
 
+/* lONG-CARD */
 main .container-little .long-card{
     width: 300px;
     height: 950px;    
@@ -260,8 +261,6 @@ main .container-little .long-card .bottom .buy a{
     color: #0000EE;
 }
 
-
-
 main .container-little .long-card .bottom .highlights-offer{
     padding-top: 55px;
     padding-bottom: 25px;
@@ -291,16 +290,45 @@ main .container-little .long-card .bottom .highlights-offer p{
     font-size: .9rem;
 }
 
-
-
-
-
-
-
+/* LARGE-CARD */
 main .container-little .large-card{
     height: 255px;
     margin-top: 50px;
-    background-color: yellow;
+    border: 1px solid #D0D0D3;
+}
+
+main .container-little .large-card .top{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #D0D0D3;
+    font-size: .9rem;
+}
+
+main .container-little .large-card .bottom{
+    position: relative;
+    padding: 35px 25px;
+}
+
+main .container-little .large-card .bottom h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+main .container-little .large-card .bottom span{
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+main .container-little .large-card .bottom p{
+    font-size: .9rem;
+    margin-top: 55px;
+    width: 600px;
+}
+
+main .container-little .large-card .bottom button{
+    position: absolute;
+    top:30px;
+    right: 30px;
 }
 
 /* END MAIN */
