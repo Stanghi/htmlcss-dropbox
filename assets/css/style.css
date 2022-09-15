@@ -6,6 +6,14 @@
     /* outline: 2px solid red; */
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
 /* UTILITY */
 .debug{
     background-color: rgba(red, 0, 0, 0.25);
@@ -13,8 +21,70 @@
 }
 
 /* COMPONENTS */
+.btn{
+    border: none;
+}
+
+.btn-header{
+    background-color: #0061FF;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #DDEAFF;
+    margin-left: 20px;
+}
 
 /* HEADER */
+header{
+    position: fixed;
+    display: flex;
+    z-index: 999;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+header .left-side{
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+header .right-side{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+header .left-side .logo img{
+    width: 120px;
+}
+
+header .left-side .menu ul,
+.right-side .menu ul {
+    list-style: none; 
+    display: flex;
+}
+
+header .left-side .menu ul li,
+.right-side .menu ul li{
+    padding: 5px;
+    padding-left: 40px;
+}
+
+header .left-side .menu ul li a,
+.right-side .menu ul li a{
+    text-decoration: none;
+    color: #717171;
+    font-size: 1rem;
+}
+
+header .left-side .menu ul li a:hover, 
+.right-side .menu ul li a:hover { /* DA FARE */
+}
+
 /* END HEADER */
 
 /* MAIN */
