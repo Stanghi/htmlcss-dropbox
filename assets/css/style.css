@@ -385,7 +385,6 @@ main .container-little .content .content-cards .img-centered img{
 
 main .container-little .content .content-cards .feature{
     width: calc(100% /3);
-    height: 470px;
     padding: 0 15px;
     margin-bottom: 50px;
 }
@@ -393,12 +392,121 @@ main .container-little .content .content-cards .feature{
 main .container-little .content .content-cards h3{
     font-size: 1.5rem;
     padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 main .container-little .content .content-cards p{
     font-size: 1.1rem;
 }
+
+main .container-little .second-title{
+    font-size: 2.5rem;
+    margin-top: 190px;
+    width: 585px;
+    margin-bottom: 60px;
+}
+
+main .container-little .discover{
+    color: #0000EE;
+}
+
+/* BIG-BOX */
+main .big-box{
+    display: flex;
+    position: relative;
+    margin-top: 150px;
+    height: 1000px;
+}
+
+main .big-box .designit-left{
+    position: relative;
+    width: 640px;
+    display: flex;
+    height: 635px;
+}
+
+main .big-box .box{
+    width: 320px;
+    height: 320px;
+}
+
+main .big-box .designit-center{
+    position: absolute;
+    right: 640px;
+
+    background-color: #F5F5F5;
+    width: 625px;
+    height: 640px;
+}
+
+main .big-box .designit-right{
+    position: absolute;
+    right: 0;
+    width: 640px;
+    display: flex;
+    height: 635px;
+}
+
+main .big-box .designit-right .box{
+    width: 320px;
+    height: 320px;
+}
+
+.box-1{
+    background-color: #A2D39B;
+    position: absolute;
+    left: 0;
+}
+
+.box-2{
+    background-color: #61082B;
+    position: absolute;
+    right: 0;
+}
+
+.box-3{
+    background-color: #0093CE;
+    position: absolute;
+    bottom: 0;
+}
+
+.box-4{
+    background-color: #FF1C1C;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box-hearst{
+    background-color: #B4D0E7;
+    position: absolute;
+    right: 0;
+}
+
+.box-wbr{
+    background-color: #D5001F;
+    position: absolute;
+    left: 0;
+}
+
+.box-clear{
+    background-color: #FFD830;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box-lonely{
+    background-color: #0D2481;
+    position: absolute;
+    bottom: 0;
+}
+
 /* END MAIN */
 
 /* FOOTER */
-/* END FOOTER */
+/* END FOOTER */    
+
+
+
+
