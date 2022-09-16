@@ -17,7 +17,7 @@ img{
 
 /* UTILITY */
 .debug{
-    background-color: rgba(red, 0, 0, 0.25);
+    background-color: rgba(red, 0, 0, 0.50);
     border: 1px solid black;
 }
 
@@ -576,10 +576,42 @@ main .container-little .ask .ask-box h3{
 main .container-little .ask .ask-box i{
     font-size: .8rem;
 }
-
 /* END MAIN */
 
 /* FOOTER */
+footer{
+    background-color: #000000;
+    color: #EFFFF7;
+}
+
+footer .f-col{
+    display: flex;
+    padding-top: 105px;
+    padding-bottom: 115px;
+}
+
+footer .f-col .col{
+    width: calc(100% / 5);
+}
+
+footer .f-col .col h3{
+    font-size: 1.5rem;
+    padding-bottom: 35px;
+}
+
+footer .f-col .col ul{
+    list-style: none; 
+}
+
+footer .f-col .col ul li{
+    padding-bottom: 20px;
+}
+
+footer .f-col .col ul li a{
+    text-decoration: none;
+    color: #EFFFF7;
+}
+
 /* END FOOTER */    
 
 
