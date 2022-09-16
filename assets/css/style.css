@@ -610,10 +610,9 @@ main .container-little .ask{
     display: none;
 }
 
-/* .big-ask-box input:checked + i.fa-chevron-down{
+.big-ask-box:has(input:checked) i{
     transform: rotate(180deg);
-}  */
-
+}
 
 main .container-little .ask h2{
     font-size: 2.5rem;
