@@ -41,6 +41,7 @@ img{
 
 .btn{
     border: none;
+    transition: 0.3S;
 }
 
 .btn-header{
@@ -55,7 +56,14 @@ img{
 .btn-hero:hover,
 .btn-card:hover,
 .btn-large-card:hover {
+    cursor: pointer;
     background-color: #0079F9;
+}
+
+.btn-partner:hover,
+.btn-free-trial:hover{
+    cursor: pointer;
+    background-color: #DDDDDD;
 }
 
 .btn-hero{
@@ -352,6 +360,19 @@ main .container-little .long-card .bottom .highlights-offer p{
     font-size: .9rem;
 }
 
+.hr-long-card{
+    width: 50px;
+    margin-top: 40px;
+    border: 1px solid #D0D0D3;
+}
+
+.hr-big-box{
+    width: 110px;
+    margin-top: 40px;
+    border: 1px solid #D0D0D3;
+}
+
+
 /* LARGE-CARD */
 main .container-little .large-card{
     height: 255px;
@@ -599,10 +620,13 @@ footer{
     color: #EFFFF7;
 }
 
-footer .f-col{
+.f-top{
     display: flex;
+}
+
+footer .f-col{
     padding-top: 105px;
-    padding-bottom: 115px;
+    padding-bottom: 50px;
 }
 
 footer .f-col .col{
@@ -629,6 +653,23 @@ footer .f-col .col ul li a{
 
 footer .f-col .col ul li a:hover{
     text-decoration: underline;
+}
+
+.f-bottom{
+    width: 100%;
+    display: block;
+    color: #999999;
+}
+
+.hr-footer{
+    width: 120px;
+    border: 1px solid #D0D0D3;
+    margin: 120px 0 50px;
+}
+
+.f-bottom span{
+    margin: 0 5px;
+
 }
 
 /* END FOOTER */    
