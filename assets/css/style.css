@@ -121,8 +121,9 @@ header .right-side{
     padding: 0 25px;
 }
 
-header .left-side .logo img{
+header .left-side img{
     width: 120px;
+    margin-right: 20px;
 }
 
 header .left-side .menu ul,
@@ -133,19 +134,24 @@ header .left-side .menu ul,
 
 header .left-side .menu ul li,
 .right-side .menu ul li{
-    padding: 5px;
-    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 5px 20px;
 }
 
 header .left-side .menu ul li a,
 .right-side .menu ul li a{
+    
     text-decoration: none;
     color: #717171;
     font-size: 1rem;
 }
 
-header .left-side .menu ul li a:hover, 
-.right-side .menu ul li a:hover { /* DA FARE */
+header .left-side .menu ul li:hover, 
+.right-side .menu ul li:hover {
+    border-bottom: 2px solid black;
+    border-top: 2px solid transparent;
 }
 /* END HEADER */
 
