@@ -147,7 +147,6 @@ header .left-side .menu ul li a:hover,
 /* MAIN */
 main{
     padding-top: 80px;
-    height: 10000px; /* DA LEVARE */
 }
 
 /* JUMBOTRON */
@@ -549,6 +548,35 @@ main .free-trial-box h2{
     font-size: 2.5rem;
     width: calc(100% / 2);
 }
+
+/* ASK */
+main .container-little .ask{
+    padding-top: 165px;
+    padding-bottom: 150px;
+}
+
+main .container-little .ask h2{
+    font-size: 2.5rem;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #999999;
+}
+
+main .container-little .ask .ask-box{
+    display: flex;
+    padding: 45px 0;
+    border-bottom: 1px solid #999999;
+    
+}
+
+main .container-little .ask .ask-box h3{
+    font-size: 1rem;
+    padding-right: 290px;
+}
+
+main .container-little .ask .ask-box i{
+    font-size: .8rem;
+}
+
 /* END MAIN */
 
 /* FOOTER */
