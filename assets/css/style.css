@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 2px solid red; */
+    /* outline: 2px solid red;*/
 }
 
 html{
@@ -13,7 +13,6 @@ html{
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-
 }
 
 img{
@@ -222,7 +221,7 @@ main .jumbotron .container .jumbo-bottom .jumbo-bottom-left a i{
 
 /* END JUMBOTRON */
 
-main .container-little .first-title{ /* VA BENE */
+main .container-little .first-title{
     font-size: 2.5rem;
     margin-top: 165px;
     margin-bottom: 75px;
@@ -251,7 +250,7 @@ main .container-little .check{
     display: none;
 }
 
-main .container-little .check .check-left{ /* VA BENE */
+main .container-little .check .check-left{
     padding-right: 50px;
 }
 
@@ -268,7 +267,7 @@ main .container-little .long-card{
     border: 1px solid #D0D0D3;
 }
 
-main .container-little .long-card .top{ /* VA BENE */
+main .container-little .long-card .top{
     text-align: center;
     padding: 15px 0;
     border-bottom: 1px solid #D0D0D3;
@@ -371,7 +370,6 @@ main .container-little .long-card .bottom .highlights-offer p{
     margin-top: 40px;
     border: 1px solid #D0D0D3;
 }
-
 
 /* LARGE-CARD */
 main .container-little .large-card{
@@ -483,7 +481,6 @@ main .container-little .discover{
 }
 
 /* BIG-BOX */
-
 main .big-box{
     display: flex;
     margin-top: 150px;
@@ -693,7 +690,3 @@ footer .f-col .col ul li a:hover{
     margin: 0 5px;
 }
 /* END FOOTER */    
-
-
-
-
