@@ -6,6 +6,11 @@
     /* outline: 2px solid red; */
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
 body{
     font-family:Arial, Helvetica, sans-serif;
 
@@ -187,9 +192,13 @@ main .jumbotron .container .jumbo-bottom .jumbo-bottom-left span{
     margin-bottom: 80px;
 }
 
-main .jumbotron .container .jumbo-bottom .jumbo-bottom-left i{
+
+main .jumbotron .container .jumbo-bottom .jumbo-bottom-left a i{
     font-size: 3.5rem;
+    cursor: pointer;
+    color: #000000;
 }
+
 /* END JUMBOTRON */
 
 main .container-little .first-title{ /* VA BENE */
@@ -198,9 +207,27 @@ main .container-little .first-title{ /* VA BENE */
     margin-bottom: 75px;
 }
 
-main .container-little .check{ /* VA BENE */
+main .container-little .check{
     margin-bottom: 50px;
     font-size: 0.9rem;
+}
+
+.circle-colored{
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #D6D6D8;
+}
+
+.radio-input:checked + .circle-colored{
+    border: 5px solid #0061FF;
+}
+
+.radio-input{
+    display: none;
 }
 
 main .container-little .check .check-left{ /* VA BENE */
@@ -585,6 +612,10 @@ footer .f-col .col ul li{
 footer .f-col .col ul li a{
     text-decoration: none;
     color: #EFFFF7;
+}
+
+footer .f-col .col ul li a:hover{
+    text-decoration: underline;
 }
 
 /* END FOOTER */    
