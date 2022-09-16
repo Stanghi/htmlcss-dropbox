@@ -51,6 +51,13 @@ img{
     margin-left: 20px;
 }
 
+.btn-header:hover,
+.btn-hero:hover,
+.btn-card:hover,
+.btn-large-card:hover {
+    background-color: #0079F9;
+}
+
 .btn-hero{
     background-color: #0061FF;
     padding: 10px 15px;
