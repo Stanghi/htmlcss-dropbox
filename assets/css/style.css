@@ -131,6 +131,7 @@ main{
 
 /* JUMBOTRON */
 main .jumbotron{
+    display: flex;
     background-color: #B4D0E7;
     height: 735px;
 }
@@ -144,40 +145,33 @@ main .jumbotron .container .title{
 
 main .jumbotron .container .jumbo-bottom{
     display: flex;
-    position: relative;
 }
 
-main .jumbotron .container .jumbo-bottom p{
-    position: absolute;
-    top: 0;
-    font-size: 1.1rem;
-    width: 360px;
+main .jumbotron .container .jumbo-bottom .jumbo-bottom-left{
+    width: 70%;
+    padding-right: 10px;
 }
 
-main .jumbotron .container .jumbo-bottom button{
-    position: absolute;
-    top: 160px;
-    left: 0;
+main .jumbotron .container .jumbo-bottom .jumbo-bottom-left p{
+    padding-bottom: 35px;
+    
 }
 
-main .jumbotron .container .jumbo-bottom span{
-    position: absolute;
-    top: 235px;
-    left: 0;
+main .jumbotron .container .jumbo-bottom .jumbo-bottom-left button{
+    display: block;
+    margin-bottom: 35px;
+    
 }
 
-main .jumbotron .container .jumbo-bottom i{
-    position: absolute;
-    top: 325px;
-    left: 0;
-    font-size: 3rem;
+main .jumbotron .container .jumbo-bottom .jumbo-bottom-left span{
+    display: block;
+    margin-bottom: 80px;
+    
 }
 
-main .jumbotron .container .jumbo-bottom img{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 840px;
+main .jumbotron .container .jumbo-bottom .jumbo-bottom-left i{
+    font-size: 3.5rem;
+    
 }
 /* END JUMBOTRON */
 
@@ -423,42 +417,12 @@ main .container-little .discover{
 
 /* BIG-BOX */
 main .big-box{
-    display: flex;
-    position: relative;
     margin-top: 150px;
     height: 1000px;
-}
-
-main .big-box .designit-left{
-    position: relative;
-    width: 640px;
-    display: flex;
-    height: 635px;
+    background-color: lightcyan;
 }
 
 main .big-box .box{
-    width: 320px;
-    height: 320px;
-}
-
-main .big-box .designit-center{
-    position: absolute;
-    right: 640px;
-
-    background-color: #F5F5F5;
-    width: 625px;
-    height: 640px;
-}
-
-main .big-box .designit-right{
-    position: absolute;
-    right: 0;
-    width: 640px;
-    display: flex;
-    height: 635px;
-}
-
-main .big-box .designit-right .box{
     width: 320px;
     height: 320px;
 }
@@ -467,6 +431,11 @@ main .big-box .designit-right .box{
     background-color: #A2D39B;
     position: absolute;
     left: 0;
+}
+
+.box-1::after{
+    content: '';
+    display: block;
 }
 
 .box-2{
@@ -487,6 +456,30 @@ main .big-box .designit-right .box{
     bottom: 0;
     right: 0;
 }
+
+/* main .big-box .designit-center{
+    position: absolute;
+    right: 640px;
+
+    background-color: #F5F5F5;
+    width: 625px;
+    height: 640px;
+}
+
+main .big-box .designit-right{
+    position: relative;
+    right: 0;
+    width: 640px;
+    display: flex;
+    height: 635px;
+}
+
+main .big-box .designit-right .box{
+    width: 320px;
+    height: 320px;
+} */
+
+
 
 .box-hearst{
     background-color: #B4D0E7;
@@ -513,6 +506,64 @@ main .big-box .designit-right .box{
     bottom: 0;
 }
 
+
+
+
+
+
+.box-1::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.box-2::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.box-3::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.box-4::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.box-hearst::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.box-wbr::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.box-clear::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.box-lonely::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.box-center::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
 /* END MAIN */
 
 /* FOOTER */
