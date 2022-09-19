@@ -119,6 +119,7 @@ header{
     height: 80px;
     width: 100%;
     background-color: #FFFFFF;
+    border-bottom: 1px solid #D0D0D3;
 }
 
 header .left-side{
@@ -531,10 +532,12 @@ main .big-box .box img{
     max-width: 50%;
 }
 
+.active:active{
+    border: 15px solid rgba(0, 0, 0, .3);
+}
 
 .box-left .box-1{
     background-color: #A2D39B;
-    border: 15px solid #D1E9CD;
 }
 
 .box-left .box-2{
