@@ -189,32 +189,32 @@ main .jumbotron .container .title{
     font-weight: 800;
 }
 
-main .jumbotron .container .jumbo-bottom{
+.jumbo-bottom{
     display: flex;
 }
 
-main .jumbotron .container .jumbo-bottom .jumbo-bottom-left{
+.jumbo-bottom .jumbo-bottom-left{
     width: 70%;
     padding-right: 10px;
 }
 
-main .jumbotron .container .jumbo-bottom .jumbo-bottom-left p{
+.jumbo-bottom .jumbo-bottom-left p{
     padding-bottom: 35px;
     
 }
 
-main .jumbotron .container .jumbo-bottom .jumbo-bottom-left button{
+.jumbo-bottom .jumbo-bottom-left button{
     display: block;
     margin-bottom: 35px;
 }
 
-main .jumbotron .container .jumbo-bottom .jumbo-bottom-left span{
+.jumbo-bottom .jumbo-bottom-left span{
     display: block;
     margin-bottom: 80px;
 }
 
 
-main .jumbotron .container .jumbo-bottom .jumbo-bottom-left a i{
+.jumbo-bottom .jumbo-bottom-left a i{
     font-size: 3.5rem;
     cursor: pointer;
     color: #000000;
@@ -268,95 +268,95 @@ main .container-little .long-card{
     border: 1px solid #D0D0D3;
 }
 
-main .container-little .long-card .top{
+.long-card .top{
     text-align: center;
     padding: 15px 0;
     border-bottom: 1px solid #D0D0D3;
     font-size: .9rem;
 }
 
-main .container-little .long-card .bottom{
+.long-card .bottom{
     padding: 35px 25px;
 }
 
-main .container-little .long-card .bottom h3{
+.long-card .bottom h3{
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
-main .container-little .long-card .bottom .price{
+.long-card .bottom .price{
     font-weight: bold;
     font-size: .9rem;
     margin-bottom: 20px;
 }
 
-main .container-little .long-card .bottom .month{
+.long-card .bottom .month{
     font-size: .9rem;
     color: #747097;
     padding-top: 15px;
 }
 
-main .container-little .long-card .bottom .offer{
+.long-card .bottom .offer{
     display: flex;
     padding-top: 55px;
     margin-bottom: 25px;
 }
 
-main .container-little .long-card .bottom .offer ul{
+.long-card .bottom .offer ul{
     list-style: none;
     
 }
 
-main .container-little .long-card .bottom .offer ul li{
+.long-card .bottom .offer ul li{
     padding-bottom: 25px;
     display: flex;
 }
 
-main .container-little .long-card .bottom .offer ul li i{
+.long-card .bottom .offer ul li i{
     font-size: .9rem;
     padding-right: 10px;
 }
 
-main .container-little .long-card .bottom .offer ul li p{
+.long-card .bottom .offer ul li p{
     font-size: 0.94rem;
 }
 
-main .container-little .long-card .bottom .buy{
+.long-card .bottom .buy{
     margin-top: 35px;
     font-size: .9rem;
 }
 
-main .container-little .long-card .bottom .buy a{
+.long-card .bottom .buy a{
     color: #0000EE;
 }
 
-main .container-little .long-card .bottom .highlights-offer{
+.long-card .bottom .highlights-offer{
     padding-top: 55px;
     padding-bottom: 25px;
 }
 
-main .container-little .long-card .bottom .highlights-offer h4{
+.long-card .bottom .highlights-offer h4{
     font-size: .9rem;
     margin-bottom: 35px;
 }
 
-main .container-little .long-card .bottom .highlights-offer ul{
+.long-card .bottom .highlights-offer ul{
     list-style: none;
 }
 
-main .container-little .long-card .bottom .highlights-offer ul li{
+.long-card .bottom .highlights-offer ul li{
  padding-bottom: 25px;   
  display: flex;
 }
 
-main .container-little .long-card .bottom .highlights-offer ul li i{
+.long-card .bottom .highlights-offer ul li i{
     color: #0061FF;
     font-size: .9rem;
     padding-right: 5px;
 }
 
-main .container-little .long-card .bottom .highlights-offer p{
+.long-card .bottom .highlights-offer p{
     font-size: .9rem;
 }
 
@@ -373,111 +373,111 @@ main .container-little .long-card .bottom .highlights-offer p{
 }
 
 /* LARGE-CARD */
-main .container-little .large-card{
+.large-card{
     height: 255px;
     margin-top: 50px;
     border: 1px solid #D0D0D3;
 }
 
-main .container-little .large-card .top{
+.large-card .top{
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid #D0D0D3;
     font-size: .9rem;
 }
 
-main .container-little .large-card .bottom{
+.large-card .bottom{
     position: relative;
     padding: 35px 25px;
 }
 
-main .container-little .large-card .bottom h3{
+.large-card .bottom h3{
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
-main .container-little .large-card .bottom span{
+.large-card .bottom span{
     font-weight: bold;
     font-size: .9rem;
 }
 
-main .container-little .large-card .bottom p{
+.large-card .bottom p{
     font-size: .9rem;
     margin-top: 55px;
     width: 600px;
 }
 
-main .container-little .large-card .bottom button{
+.large-card .bottom button{
     position: absolute;
     top:30px;
     right: 30px;
 }
 
 /* BOX-PARTNER */
-main .container-little .box-partner{
+.box-partner{
     margin-top: 150px;
     display: flex;
 }
 
-main .container-little .box-partner img{
+.box-partner img{
     width: 600px;
 }
 
-main .container-little .box-partner .partner-text h2{
+.box-partner .partner-text h2{
     padding-top: 60px;
     padding-left: 50px;
 }
 
-main .container-little .box-partner .partner-text p{
+.box-partner .partner-text p{
     padding: 20px 50px;
 }
 
 
 /* CONTENT */
-main .container-little .content .content-cards{
+.content .content-cards{
     display: flex;
     flex-wrap: wrap;
 }
 
-main .container-little .content h2{
+.content h2{
     font-size: 2.5rem;
     margin-top: 170px;
     margin-bottom: 70px;
 }
 
-main .container-little .content .content-cards .img-centered{
+.content .content-cards .img-centered{
     text-align: center;
 }
 
-main .container-little .content .content-cards .img-centered img{
+.content .content-cards .img-centered img{
     width: 300px;
     align-items: center;
 }
 
-main .container-little .content .content-cards .feature{
+.content .content-cards .feature{
     width: calc(100% /3);
     padding: 0 15px;
     margin-bottom: 50px;
 }
 
-main .container-little .content .content-cards h3{
+.content .content-cards h3{
     font-size: 1.5rem;
     padding-bottom: 30px;
     padding-top: 20px;
 }
 
-main .container-little .content .content-cards p{
+.content .content-cards p{
     font-size: 1.1rem;
 }
 
-main .container-little .second-title{
+.second-title{
     font-size: 2.5rem;
     margin-top: 190px;
     width: 585px;
     margin-bottom: 60px;
 }
 
-main .container-little .discover{
+.discover{
     color: #0000EE;
 }
 
